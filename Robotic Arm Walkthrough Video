@@ -1,1 +1,5 @@
-https://youtube.com/shorts/AorQ2mk35kA?feature=share
+# Prosthetic Hand Demonstration
+
+This video demonstrates my AI-powered prosthetic hand responding to my finger movements in real time. Using a webcam and MediaPipe, the Python program tracks 21 landmarks on my hand and sends commands to an Arduino Uno, which controls five servo motors inside the 3D-printed prosthetic hand.
+
+**Demonstration Video: https://youtube.com/shorts/AorQ2mk35kA?feature=share
