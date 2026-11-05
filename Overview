@@ -1,10 +1,10 @@
-# AI-Powered 3D-Printed Prosthetic Hand
+AI-Powered 3D-Printed Prosthetic Hand
 
-**Overview:**
+Overview:
 
 I built an AI-powered 3D-printed prosthetic hand that uses computer vision to detect and replicate finger movements in real time. The project combines Python, Arduino, and servo motors to explore how robotic prosthetics can respond to human hand gestures. I assembled, programmed, and tested the prototype to make the robotic fingers move based on my own hand movements.
 
-**Components:**
+Components:
 - Arduino Uno
 - 5 servo motors
 - 3D-printed prosthetic hand
@@ -12,32 +12,32 @@ I built an AI-powered 3D-printed prosthetic hand that uses computer vision to de
 - Computer with webcam
 - External power supply
 
-**How It Works:**
+How It Works:
 
 1. A webcam captures my hand movements in real time.
 2. Python uses MediaPipe to recognize my hand and track individual finger positions.
 3. The program processes the gestures and sends commands to the Arduino through serial communication.
 4. The Arduino controls five servo motors, allowing the robotic fingers to open and close based on my movements.
 
-**Programming:**
+Programming:
 
 I used Python with MediaPipe and OpenCV for hand tracking and gesture recognition. I also programmed the Arduino using C++ in Arduino IDE to receive commands from Python and control the five servo motors.
 
-**Testing:**
+Testing:
 
 I tested the prototype by moving my fingers in front of the webcam and observing how the robotic hand responded. I adjusted the servo motor angles and improved communication between Python and Arduino to make the movements more consistent. The completed prototype successfully responded to my hand gestures.
 
-**Future Improvements:**
+Future Improvements:
 
 1. Improve the accuracy and speed of finger movement detection.
 2. Add sensors to provide feedback when the robotic fingers grip objects.
 3. Improve the 3D-printed design to make the hand more durable and flexible.
 4. Develop a wireless control system to eliminate the need for a computer connection.
 
-**Timeline:**
+Timeline:
 
 I designed and 3D-printed the prosthetic hand, assembled the servo motors and electronics, programmed the Arduino and Python hand-tracking system, and tested the completed prototype.
 
-**Resources:**
+Resources:
 
 Arduino, C++, Python, MediaPipe, OpenCV, 3D Printing, Servo Motors, Computer Vision, and Electronics.
